@@ -1,0 +1,11 @@
+GET http://localhost:4004/odata/v4/catalog/miranha
+###
+
+POST http://localhost:4004/odata/v4/catalog/miranha
+Content-Type: application/json
+
+[{
+    ID: "aa4927ed-a1f7-4ad8-a54e-0e0cba8d2c61"
+    name: "Miranha Aranha"
+}]
+###
